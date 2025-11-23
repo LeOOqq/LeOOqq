@@ -82,22 +82,46 @@
 
 ---
 
-# 📊 GitHub İstatistikleri
+## 📊 GitHub İstatistikleri
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=tokyonight&hide_border=true" />
 
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&theme=tokyonight&hide_border=true" />
+  <!-- ANIMATED STATS CARD -->
+  <img src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true&custom_title=YasinCldrn's+GitHub+Stats" height="170"/>
+
+  <!-- ANIMATED LANG CARD -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Most+Used+Languages" height="170"/>
+</div>
+
+<br>
+
+<!-- CUSTOM 3D STREAK PANEL -->
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=LeOOqq&theme=tokyonight&hide_border=true&background=0d1117&fire=DD2727&ring=00eaff&currStreakLabel=ffffff&sideLabels=ffffff" height="200"/>
+</div>
+
+<br>
+
+<!-- ANIMATED BAR PANEL (CUSTOM) -->
+<div align="center">
+  <img src="https://i.imgur.com/n8e4FYX.gif" width="90%" style="border-radius: 12px;" />
+</div>
+
+<br>
+
+<!-- CUSTOM MINI CARDS -->
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Total_Contributions-15-00eaff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+
+  <img src="https://img.shields.io/badge/Current_Streak-2_Days-ff4d4d?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=0d1117" />
+
+  <img src="https://img.shields.io/badge/Longest_Streak-2_Days-8fff00?style=for-the-badge&logo=sparkfun&logoColor=white&labelColor=0d1117" />
+
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&theme=tokyonight&hide_border=true" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=LeOOqq&label=Profil%20Ziyareti&color=blueviolet&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=LeOOqq&label=Profil%20Ziyareti&color=9f2bff&style=for-the-badge" />
 </div>
