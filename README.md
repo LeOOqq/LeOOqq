@@ -2,18 +2,14 @@
 
   <!-- Terminal Typing Banner -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1200&color=00E7FF&center=true&vCenter=true&width=800&height=100&lines=%24+sudo+whoami;Mehmet+Yasin+%C3%87ald%C4%B1ran;Initializing+Security+Modules...;Mobile+%26+Security+Engineer" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1200&color=00E7FF&center=true&vCenter=true&width=800&height=100&lines=%24+sudo+whoami;Mehmet+Yasin+Çaldıran;Initializing+Security+Modules...;Mobile+%26+Security+Engineer" />
   </a>
 
   <!-- Divider GIF -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-  <!-- Bio -->
-  <p align="center" style="font-family: 'Fira Code'; font-size: 15px; color: #9da5b4; max-width: 650px;">
-    Terminal ile yaşayan, karanlık moddan çıkmayan bir <b>Computer Engineering</b> öğrencisiyim.<br>
-    2023'te <code>Hello World</code> dedim, şimdi <b>Mobile Architecture</b> ve <b>System Security</b> üzerine çalışıyorum.<br>
-    <i>"Code. Secure. Deploy."</i>
-  </p>
+  <!-- HACKER TERMINAL BIO (ANIMATED) -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=500&color=18FF00&center=true&vCenter=true&width=800&lines=Terminal+ile+yaşayan+bir+Computer+Engineering+öğrencisiyim.;Karanlık+mod+benim+doğal+ortamım.;2023'te+Hello+World+dedim.;Artık+System+Security+ve+Mobile+Architecture+üzerine+çalışıyorum.;Code.+Secure.+Deploy." />
 
   <!-- Social Badges -->
   <p align="center">
