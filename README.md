@@ -3,11 +3,11 @@
   <img src="https://i.gifer.com/3HeB.gif" width="100%" height="250px" />
 </div>
 
-<!-- ORIGINAL + UPGRADED TYPING TITLE -->
+<!-- MAIN TYPING TITLE -->
 <div align="center">
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=800&color=00E7FF&center=true&vCenter=true&width=800&height=100&lines=%3E+sudo+whoami;Mehmet+Yasin+Çaldıran;%3E+loading+skills...;Mobile+%26+Security+Engineer;Neon+Matrix+Protocol+Activated" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=800&color=00E7FF&center=true&vCenter=true&width=900&height=100&lines=$+sudo+whoami;Mehmet+Yasin+Çaldıran;Loading+skills...;Mobile+%26+Security+Engineer;Neon+Matrix+Protocol+Activated">
   </a>
 
   <!-- GLITCH SEPARATOR -->
@@ -36,16 +36,16 @@
       <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
     <a href="mailto:mcaldiran.mdbf24@iste.edu.tr">
-      <img src="https://img.shields.io/badge/EDU_EMAIL-111111?style=for-the-badge&logo=gmail&logoColor=FF3333"/>
+      <img src="https://img.shields.io/badge/EDU_MAIL-111111?style=for-the-badge&logo=gmail&logoColor=FF3333"/>
     </a>
     <a href="mailto:reallhyperr1274@gmail.com">
       <img src="https://img.shields.io/badge/EMAIL-111111?style=for-the-badge&logo=gmail&logoColor=FF3333"/>
     </a>
 </div>
 
-<br/><br/>
+---
 
-<!-- TERMINAL ANIMATION -->
+<!-- TERMINAL OUTPUT -->
 ```bash
 root@matrix:~$ whoami
 > Mehmet Yasin Çaldıran
