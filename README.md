@@ -54,26 +54,6 @@
         <br/><code style="color:#8b949e; font-size:12px;">Kotlin</code>
       </td>
 
-      <td align="center" width="100">
-        <img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="45" />
-        <br/><code style="color:#8b949e; font-size:12px;">Flutter</code>
-      </td>
-
-      <td align="center" width="100">
-        <img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="45" />
-        <br/><code style="color:#8b949e; font-size:12px;">Firebase</code>
-      </td>
-
-      <td align="center" width="100">
-        <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="45" />
-        <br/><code style="color:#8b949e; font-size:12px;">MySQL</code>
-      </td>
-
-      <td align="center" width="100">
-        <img src="https://skillicons.dev/icons?i=linux&theme=dark" width="45" />
-        <br/><code style="color:#8b949e; font-size:12px;">Linux</code>
-      </td>
-    </tr>
   </table>
 </div>
 
@@ -97,30 +77,6 @@
   <table style="border-collapse: collapse; width: 80%; max-width: 800px;">
     <tr>
 
-      <!-- Total Contributions -->
-      <td align="center" style="padding:20px; border-right:1px solid #30363d; color:#c9d1d9; font-family:monospace;">
-        <div style="font-size:28px; font-weight:bold;">29</div>
-        <div style="color:#848d97; font-size:14px;">Total Contributions</div>
-        <div style="color:#6d737c; font-size:13px;">Oct 28, 2024 - Present</div>
-      </td>
-
-      <!-- Current Streak -->
-      <td align="center" style="padding:20px; border-right:1px solid #30363d; color:#c9d1d9; font-family:monospace;">
-        <div style="width:60px; height:60px; border-radius:50%; border:3px solid #6e7681; display:flex; justify-content:center; align-items:center; font-size:22px;">
-          1
-        </div>
-        <div style="color:#848d97; font-size:14px;">Current Streak</div>
-        <div style="color:#6d737c; font-size:13px;">Nov 25</div>
-      </td>
-
-      <!-- Longest Streak -->
-      <td align="center" style="padding:20px; color:#c9d1d9; font-family:monospace;">
-        <div style="font-size:28px; font-weight:bold;">3</div>
-        <div style="color:#848d97; font-size:14px;">Longest Streak</div>
-        <div style="color:#6d737c; font-size:13px;">Nov 22 - Nov 23</div>
-      </td>
-
-    </tr>
   </table>
 
 </div>
