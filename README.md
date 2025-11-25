@@ -56,18 +56,6 @@
   <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,figma" />
 </p>
 
----
-
-## ⚡ GitHub Stats
-
-<div align="center">
-
-  <!-- FIXED: PROXY + FALLBACK -->
-  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LeOOqq&show_icons=true&theme=radical&hide_border=true" />
-
-  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&theme=radical&hide_border=true" />
-
-</div>
 
 ---
 
