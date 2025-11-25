@@ -77,13 +77,29 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&hide_border=true&title_color=ffffff&text_color=8b949e&icon_color=ffffff&bg_color=0d1117&hide=stars&locale=tr" height="150" alt="stats" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&hide_border=true&title_color=ffffff&text_color=8b949e&icon_color=ffffff&bg_color=0d1117&locale=tr" height="150" alt="langs" />
+
+  <!-- FIXED STAT IMAGE -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&hide_border=true&title_color=ffffff&text_color=8b949e&icon_color=ffffff&bg_color=0d1117&hide=stars&locale=tr" 
+    alt="stats"
+    height="150"
+    style="margin-right: 10px;"
+  />
+
+  <!-- FIXED LANG IMAGE -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&hide_border=true&title_color=ffffff&text_color=8b949e&bg_color=0d1117&locale=tr"
+    alt="langs"
+    height="150"
+  />
+
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&hide_border=true&background=0d1117&stroke=ffffff&ring=8b949e&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=8b949e" alt="streak" />
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&hide_border=true&background=0d1117&stroke=ffffff&ring=8b949e&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=8b949e"
+    alt="streak"
+  />
 </div>
