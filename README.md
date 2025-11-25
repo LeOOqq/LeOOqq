@@ -1,130 +1,129 @@
-<div align="center">
-  <h1 style="border-bottom: 3px solid #00bcd4; padding-bottom: 10px; color: #00bcd4;">
-    👋 Merhaba, Ben [Adınız Soyadınız]!
-  </h1>
-  
-  <p style="font-size: 1.2em; color: #aaa;">
-    ✨ [Buraya en havalı sloganınızı ekleyin.]
+<!-- CYBERPUNK GLOBAL STYLE -->
+<style>
+  @keyframes glow { 
+    0% { text-shadow: 0 0 4px #00eaff, 0 0 10px #00eaff; }
+    50% { text-shadow: 0 0 15px #00eaff, 0 0 30px #00eaff; }
+    100% { text-shadow: 0 0 4px #00eaff, 0 0 10px #00eaff; }
+  }
+
+  @keyframes matrixRain {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 2000px; }
+  }
+
+  @keyframes glitch {
+    0% { clip-path: inset(0 0 0 0); }
+    20% { clip-path: inset(5px 0 20px 0); }
+    40% { clip-path: inset(0 0 10px 0); }
+    60% { clip-path: inset(10px 0 5px 0); }
+    80% { clip-path: inset(2px 0 15px 0); }
+    100% { clip-path: inset(0 0 0 0); }
+  }
+
+  .banner {
+    font-family: 'Fira Code', monospace;
+    font-size: 38px;
+    color: #00eaff;
+    animation: glow 2.5s infinite ease-in-out;
+    letter-spacing: 2px;
+  }
+
+  .glitchText { 
+    animation: glitch 1.5s infinite;
+  }
+
+  .sub {
+    color: #9da5b4;
+    font-family: monospace;
+    font-size: 18px;
+  }
+
+  .matrix {
+    background-image: url('https://i.ibb.co/8jxJkP6/matrix-rain.gif');
+    background-size: cover;
+    background-position: center;
+    animation: matrixRain 25s linear infinite;
+    padding: 50px;
+    border-radius: 12px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    color: #00eaff;
+    font-family: monospace;
+    text-shadow: 0 0 8px #00eaff;
+  }
+</style>
+
+<div align="center" class="matrix">
+
+  <!-- TITLE -->
+  <div class="banner glitchText">
+    ❯ sudo whoami
+  </div>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=2500&pause=500&color=00E9FF&center=true&vCenter=true&width=800&height=80&lines=Mehmet+Yasin+Çaldıran;LeOOqq;Mobile+%26+Security+Engineer;Hacking+the+Future..." />
+  </a>
+
+  <br/><br/>
+
+  <p class="sub">
+    Terminal karanlığında çalışan bir <b>Mobile & Security Engineer</b>.<br>
+    Sistem mimarileri + uygulama güvenliği üzerine çalışıyorum.<br>
+    <i>"Build. Secure. Deploy. Repeat."</i>
   </p>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&color=00BCD4&center=true&vCenter=true&width=500&lines=Full-Stack+Geliştiriciyim.;Yenilikçi+Çözümler+Üretiyorum.;Açık+Kaynak+Tutkunuyum.;Sizi+Burada+Görmek+Güzel!" alt="Typing SVG" />
-  
-  <br>
+  <br/>
 
-  <h2>🔗 Bana Ulaşın</h2>
-  
+  <!-- SOCIAL BUTTONS -->
   <p>
-    <a href="https://linkedin.com/in/[KullanıcıAdınız]" target="_blank">
-      <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <a href="https://github.com/LeOOqq">
+      <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=00eaff">
     </a>
-    <a href="mailto:eposta_adresiniz@example.com">
-      <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="https://linkedin.com/in/mehmet-yasin-çaldıran-26a948332">
+      <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00eaff">
     </a>
-    <a href="https://twitter.com/[KullanıcıAdınız]">
-      <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-    </a>
-    <a href="https://stackoverflow.com/users/[KullanıcıIdiniz]">
-      <img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow" />
+    <a href="mailto:mcaldiran.mdbf24@iste.edu.tr">
+      <img src="https://img.shields.io/badge/EDU_EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=00eaff">
     </a>
   </p>
+
 </div>
 
----
+<br/><br/>
 
-# 🚀 Hakkımda
-
-> Merhaba! Ben [Branşınız, örn: Yazılım Mühendisi]. Yazılıma olan tutkum, beni sürekli olarak yeni teknolojileri öğrenmeye ve en iyi uygulamaları keşfetmeye itiyor. Özellikle büyük ölçekli uygulamaların mimarisi, performansı ve ölçeklenebilirliği üzerine çalışmaktan keyif alıyorum.
->
-> Kod yazmanın ötesinde, [İlgi Alanınız 1, örn: kitap okumak], [İlgi Alanınız 2, örn: doğa yürüyüşleri] ve [İlgi Alanınız 3, örn: kahve demlemek] ile ilgileniyorum.
->
-> **Şu anda üzerinde çalışıyorum:** [Güncel Proje Adınız] (Link: [Proje Linki]).
->
-> **Yeni öğreniyorum:** [Öğrendiğiniz Teknoloji, örn: Rust].
-
----
-
-# 🛠️ Teknolojik Alanım
+<!-- TECH STACK -->
+<h3 align="center" class="section-title">// TECH STACK</h3>
+<br/>
 
 <div align="center">
-  <details>
-    <summary><h3>Programlama Dilleri</h3></summary>
-    <p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-    </p>
-  </details>
-
-  <details>
-    <summary><h3>Frontend Çerçeveleri</h3></summary>
-    <p>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    </p>
-  </details>
-
-  <details>
-    <summary><h3>Backend & Veritabanı</h3></summary>
-    <p>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-    </p>
-  </details>
-  
-  <details>
-    <summary><h3>DevOps & Bulut</h3></summary>
-    <p>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-      <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-      <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-    </p>
-  </details>
+  <img src="https://skillicons.dev/icons?i=kotlin,flutter,firebase,linux,mysql,cs,md,git&theme=dark&perline=8" />
 </div>
 
----
+<br/><br/>
 
-# 📈 GitHub İstatistiklerim
+<!-- STATS -->
+<h3 align="center" class="section-title">// GITHUB_STATS</h3>
+<br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&include_all_commits=true&count_private=true&line_height=25" 
-       alt="GitHub İstatistikleri" 
-       style="margin: 10px;" />
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_title=true" 
-       alt="En Çok Kullanılan Diller" 
-       style="margin: 10px;" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&hide_border=true&theme=react&bg_color=0d1117&title_color=00eaff&icon_color=00eaff&text_color=c9d1d9" />
 
-  <img src="https://github-readme-streak-stats.fireblades.workers.dev/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=false&date_format=M%20j%5B%2C%20Y%5D"
-       alt="GitHub Streak" 
-       style="margin: 10px;" />
-       
-  <p>
-    Ziyaretçi Sayısı: 
-    <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=blue" alt="Ziyaretçi Sayacı" />
-  </p>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&hide_border=true&theme=react&bg_color=0d1117&title_color=00eaff&text_color=c9d1d9" />
+
 </div>
 
----
+<br/>
 
-# ✨ Sonuç
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&theme=react&hide_border=true&background=0d1117&ring=00eaff&fire=ffffff&currStreakLabel=00eaff" />
+</div>
 
-<p align="center">
-  Bu profile göz attığınız için teşekkür ederim. Bir sonraki büyük projede işbirliği yapmak için sabırsızlanıyorum! Her zaman 
-  <a href="mailto:eposta_adresiniz@example.com">eposta</a> yoluyla bana ulaşabilirsiniz. 
-  <br><br>
-  Mutlu Kodlamalar! 💻
-</p>
+<br/><br/>
+
+<!-- FOOTER -->
+<div align="center" style="color:#555; font-family: monospace; font-size:14px;">
+  <i>“Every line of code is a footprint in the cyber void.”</i>
+</div>
