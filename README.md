@@ -6,63 +6,62 @@
 </a>
 </div>
 <br/>
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> // IDENTITY_VERIFIED
+## ⚡ Identity Verified
 ```bash
-> user.info
-Name: Mehmet Yasin Çaldıran (LeOOqq)
-Role: Mobile & Security Engineer
-Status: ONLINE
-Location: Encrypted Node
-> user.bio
-"I bridge the gap between secure architecture and fluid mobile experiences. 
-Specializing in Android internals, Flutter development, and offensive security.
-My code is clean, my packets are inspected, and my systems are fortified."
+> whoami
+Mehmet Yasin Çaldıran (LeOOqq)
+> role
+Mobile & Security Engineer
+> bio
+"Building fast. Breaking faster.
+Specializing in Android internals, Flutter development, and offensive security."
 ```
 <br/>
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSC92t6/giphy.gif" width="30"> // TECH_ARSENAL
+## 🛠 Tech Arsenal
+| **Mobile** | **Security** |
+| :--- | :--- |
+| ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) | ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white) |
+| ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) |
+| ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) | ![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white) |
+| **Languages** | **Backend & Tools** |
+| :--- | :--- |
+| ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
+| ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
+<br/>
+## 🚀 Deployed Projects
+### 🔒 SecureChat App
+> **Flutter • Dart • Cryptography**
+>
+> End-to-End Encrypted Messaging with self-destructing messages and zero-knowledge architecture.
+### 📡 Network Packet Analyzer
+> **Python • Scapy • Wireshark**
+>
+> Live traffic inspector for real-time packet capture and security auditing.
+### 🛒 Marketim Mobile
+> **Flutter • Firebase • MVVM**
+>
+> Full-featured e-commerce ecosystem with real-time product management.
+### 🕵️‍♂️ APK Intel Tool
+> **Bash • Java • ADB**
+>
+> Automated extraction of metadata and certificate analysis for Android Reverse Engineering.
+<br/>
+## 📊 System Metrics
 <div align="center">
-| **Mobile** | **Backend & APIs** | **Security** | **Languages** |
-|:---:|:---:|:---:|:---:|
-| ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) <br> ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) <br> ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) <br> ![REST](https://img.shields.io/badge/REST-API-005571?style=for-the-badge&logo=postman&logoColor=white) | ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white) <br> ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) <br> ![RevEng](https://img.shields.io/badge/Reverse_Eng-000000?style=for-the-badge&logo=hack-the-box&logoColor=3dff8f) | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) <br> ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) <br> ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) <br> ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) |
+<img src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3dff8f&icon_color=3dff8f&text_color=c9d1d9" alt="Stats" />
+<br/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&theme=radical&hide_border=true&background=0D1117&ring=3dff8f&fire=3dff8f&currStreakNum=3dff8f&sideNums=c9d1d9&sideLabels=c9d1d9" alt="Streak" />
 </div>
 <br/>
-### <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="30"> // DEPLOYED_PROJECTS
-| **SecureChat App** 🔒 | **Network Packet Analyzer** 📡 |
-|:---:|:---:|
-| *End-to-End Encrypted Messaging*<br><br>Self-destructing messages, AES-256 encryption, and zero-knowledge architecture.<br><br>`Flutter` `Dart` `Cryptography` | *Live Traffic Inspector*<br><br>Real-time packet capture and analysis tool for security auditing and network diagnostics.<br><br>`Python` `Scapy` `Wireshark` |
-| **Marketim Mobile** 🛒 | **APK Intel Tool** 🕵️‍♂️ |
-|:---:|:---:|
-| *E-Commerce Ecosystem*<br><br>Full-featured product management and order flow system with real-time updates.<br><br>`Flutter` `Firebase` `MVVM` | *Android Reverse Engineering*<br><br>Automated extraction of metadata, certificates, and manifest analysis from APKs.<br><br>`Bash` `Java` `ADB` |
-<br/>
-### <img src="https://media.giphy.com/media/26tn33aiU1iGPqEWW/giphy.gif" width="30"> // SYSTEM_METRICS
+## 🔌 Encrypted Channels
 <div align="center">
-<a href="https://github.com/LeOOqq">
-  <img src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3dff8f&icon_color=3dff8f&text_color=c9d1d9" alt="LeOOqq's GitHub Stats" />
-</a>
-<br/>
-<a href="https://github.com/LeOOqq">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&theme=radical&hide_border=true&background=0D1117&ring=3dff8f&fire=3dff8f&currStreakNum=3dff8f&sideNums=c9d1d9&sideLabels=c9d1d9" alt="LeOOqq's Streak" />
-</a>
-</div>
-<br/>
-### <img src="https://media.giphy.com/media/L1R1TVTh28hVO/giphy.gif" width="30"> // ENCRYPTED_CHANNELS
-<div align="center">
-<a href="https://github.com/LeOOqq">
-  <img src="https://img.shields.io/badge/GitHub-LeOOqq-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/mehmet-yasin-çaldıran-26a948332/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://www.instagram.com/yasin.cldrn/">
-  <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="mailto:mcaldiran.mdbf24@iste.edu.tr">
-  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+[![GitHub](https://img.shields.io/badge/GitHub-LeOOqq-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LeOOqq)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehmet-yasin-çaldıran-26a948332/)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yasin.cldrn/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mcaldiran.mdbf24@iste.edu.tr)
 </div>
 <br/>
 <div align="center">
-<pre>
-“Stay encrypted. Stay anonymous.”
-</pre>
+<code>“Stay encrypted. Stay anonymous.”</code>
 </div>
