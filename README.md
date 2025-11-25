@@ -1,151 +1,187 @@
-<!-- HEADER -->
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GitHub Banner</title>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- NAME -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=38&pause=1000&color=40C4FF&center=true&vCenter=true&width=900&height=70&lines=Mehmet+Yasin+Çaldıran" />
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Fira Code", monospace;
+    }
 
-  <!-- SUBTITLE -->
-  <h3 style="font-size: 20px; color:#B0BEC5; font-family: monospace;">
-    Computer Engineering Student • Mobile & Security Developer
-  </h3>
+    body {
+        background: #000;
+        overflow: hidden;
+    }
+
+    .banner {
+        position: relative;
+        width: 1920px;
+        height: 600px;
+        background: radial-gradient(circle at center, #0a0f2c, #000);
+        overflow: hidden;
+    }
+
+    /* Matrix digital rain */
+    canvas {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.4;
+    }
+
+    /* Floating code fragments */
+    .code {
+        position: absolute;
+        color: #00aaff;
+        font-size: 14px;
+        opacity: 0.6;
+        animation: floatCode 12s linear infinite;
+    }
+
+    @keyframes floatCode {
+        0% { transform: translateY(600px) rotate(0deg); }
+        100% { transform: translateY(-600px) rotate(720deg); }
+    }
+
+    /* Hologram glowing UI Panel */
+    .panel {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 500px;
+        height: 200px;
+        border: 2px solid rgba(0, 170, 255, 0.7);
+        background: rgba(0, 20, 40, 0.4);
+        box-shadow: 0 0 25px #0099ff;
+        border-radius: 10px;
+        backdrop-filter: blur(6px);
+        z-index: 3;
+        animation: glow 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        0% { box-shadow: 0 0 20px #0066ff; }
+        100% { box-shadow: 0 0 40px #00aaff; }
+    }
+
+    /* Text typing effect */
+    .typing {
+        color: #00c8ff;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid #00c8ff;
+        width: 0;
+        animation: typing 4s steps(40, end) forwards, blink .7s infinite;
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 460px; }
+    }
+
+    @keyframes blink {
+        0% { border-color: transparent; }
+        50% { border-color: #00c8ff; }
+        100% { border-color: transparent; }
+    }
+
+    .subtitle {
+        color: #9bdcff;
+        font-size: 20px;
+        margin-left: 20px;
+        opacity: 0;
+        animation: fadeIn 4s ease 4s forwards;
+    }
+
+    @keyframes fadeIn {
+        to { opacity: 1; }
+    }
+
+    /* Neon Octocat */
+    .octocat {
+        position: absolute;
+        right: 80px;
+        bottom: 50px;
+        width: 260px;
+        filter: drop-shadow(0 0 20px #8e00ff);
+        animation: float 6s ease-in-out infinite;
+        z-index: 3;
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-18px); }
+    }
+
+</style>
+</head>
+
+<body>
+<div class="banner">
+
+    <!-- Matrix Rain -->
+    <canvas id="matrix"></canvas>
+
+    <!-- Floating code fragments -->
+    <div class="code" style="left: 300px; animation-duration: 14s;">for(int i=0;i<10;i++)</div>
+    <div class="code" style="left: 900px; animation-duration: 11s;">print("Hello World");</div>
+    <div class="code" style="left: 1500px; animation-duration: 13s;">if(user.isAdmin)</div>
+
+    <!-- Hologram Panel -->
+    <div class="panel">
+        <div class="typing">Mehmet Yasin Çaldıran</div>
+        <div class="subtitle">Computer Engineering • Mobile Development • Cyber Security</div>
+    </div>
+
+    <!-- Neon Octocat -->
+    <img class="octocat" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" />
 
 </div>
 
----
+<script>
+    // MATRIX RAIN ANIMATION
+    const canvas = document.getElementById("matrix");
+    const ctx = canvas.getContext("2d");
 
-## <div align="center" style="font-size:24px; font-weight:700;">🧩 Material 3 – Personal Overview</div>
+    canvas.width = 1920;
+    canvas.height = 600;
 
-<div align="center" style="max-width:680px; font-size:15px; color:#CFD8DC; line-height:1.6;">
+    const letters = "01";
+    const fontSize = 16;
+    const columns = canvas.width / fontSize;
 
-🎓 İskenderun Teknik Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim.  
-🚀 Mobil uygulama geliştirme, modern yazılım mimarileri ve **sistem güvenliği** üzerine çalışıyorum.  
-🔍 Amacım; stabil, hızlı, ölçeklenebilir ve güvenli sistemler inşa etmek.  
-⚡ “Build. Break. Improve.” felsefesiyle yazılım geliştiriyorum.  
+    const drops = Array(Math.floor(columns)).fill(1);
 
-</div>
+    function drawMatrix() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
 
----
+        ctx.fillStyle = "#00ffff";
+        ctx.font = fontSize + "px monospace";
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Fokus-Mobil%20%7C%20Güvenlik-0288D1?style=for-the-badge&logoColor=white&color=0288D1" />
-  <img src="https://img.shields.io/badge/Konum-Hatay%2C%20TR-D32F2F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Durum-Kodluyor...-43A047?style=for-the-badge" />
-</div>
+        drops.forEach((y, i) => {
+            const text = letters[Math.floor(Math.random() * letters.length)];
+            ctx.fillText(text, i * fontSize, y * fontSize);
 
----
+            if (y * fontSize > canvas.height && Math.random() > 0.975) {
+                drops[i] = 0;
+            }
 
-# 🧠 About Me (Animated)
+            drops[i]++;
+        });
+    }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=700&color=00E676&center=true&vCenter=true&width=800&lines=root@system%3A~%24+cat+about_me.txt;Name%3A+Mehmet+Yasin+Çaldıran;Role%3A+Mobile+%26+Security+Engineer;Stack%3A+Android+%7C+Firebase+%7C+MySQL;Interest%3A+Reverse+Engineering+%26+Cyber+Ops;Mindset%3A+Secure.+Performant.+Scalable." />
-</div>
+    setInterval(drawMatrix, 33);
+</script>
 
----
-
-# 🛠️ Kullandığım Teknolojiler (Material 3 Grid)
-
-<table align="center" style="width:90%;">
-  <tr>
-    <th style="text-align:center;">Kategori</th>
-    <th style="text-align:center;">Teknolojiler</th>
-  </tr>
-
-  <tr>
-    <td align="center"><b>Programlama Dilleri</b></td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=kotlin,java,cpp,c,py&theme=dark" height="45" />
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center"><b>Mobil Geliştirme</b></td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=androidstudio,flutter,dart&theme=dark" height="45" />
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center"><b>Web & Frontend</b></td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=html,css,js,php,vue&theme=dark" height="45" />
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center"><b>Sistem & Araçlar</b></td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=linux,firebase,mysql,git,github&theme=dark" height="45" />
-    </td>
-  </tr>
-</table>
-
----
-
-# 📊 GitHub Stats (M3 Styled)
-
-<div align="center">
-
-  <!-- MAIN STATS -->
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Yasin's+GitHub+Stats"
-    height="170"
-  />
-
-  <!-- LANG STATS -->
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Most+Used+Languages"
-    height="170"
-  />
-
-</div>
-
-<br>
-
-<div align="center">
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com?user=LeOOqq&theme=tokyonight&hide_border=true&background=0d1117&fire=FF5722&ring=40C4FF&currStreakLabel=FFFFFF&sideLabels=FFFFFF"
-    height="200"
-  />
-</div>
-
----
-
-# 📌 Kısa Özet (Material 3 Cards Tarzı)
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/Total_Contributions-15-00B0FF?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Current_Streak-2_Gün-66BB6A?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Longest_Streak-2_Gün-AB47BC?style=for-the-badge&labelColor=0d1117" />
-
-</div>
-
----
-
-# 🔗 Bağlantılarım
-
-<div align="center">
-
-  <a href="https://www.linkedin.com/in/mehmet-yasin-çaldıran-26a948332/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-
-  <a href="mailto:mcaldiran.mdbf24@iste.edu.tr">
-    <img src="https://img.shields.io/badge/EDU%20Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-
-  <a href="mailto:reallhyperr1274@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-
-  <a href="https://github.com/LeOOqq">
-    <img src="https://img.shields.io/badge/GitHub-212121?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=LeOOqq&label=Profil%20Ziyareti&color=7E57C2&style=for-the-badge" />
-</div>
+</body>
+</html>
