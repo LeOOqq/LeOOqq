@@ -1,75 +1,55 @@
-<!-- HEADER -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LeOOqq/LeOOqq/main/animated_banner.svg" width="100%" />
-</p>
-
+# <div align="center">Hi there, I'm <a href="#" target="_blank">Your Name</a> 👨‍💻</div>
 <div align="center">
-
-  <!-- NAME TYPING -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=900&color=00E5FF&center=true&vCenter=true&width=800&height=80&lines=LeOOqq;Android+Developer;Mobile+%26+Security+Engineer" />
-  </a>
-
-  <!-- LINE -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=20C20E&background=00000000&center=true&vCenter=true&width=435&lines=Android+Developer;Cybersecurity+Enthusiast;Open+Source+Contributor;Ethical+Hacker" alt="Typing SVG" />
 </div>
-
+<div align="center">
+  <a href="https://github.com/yourusername">
+    <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" alt="GitHub Badge"/>
+  </a>
+  <a href="https://linkedin.com/in/yourusername">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin" alt="LinkedIn Badge"/>
+  </a>
+  <a href="mailto:youremail@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=social&logo=gmail" alt="Email Badge"/>
+  </a>
+</div>
+<br/>
+<div align="center">
+  <i>"Security is not a product, but a process."</i>
+</div>
+<br/>
+## 👨‍💻 About Me
+I'm a passionate **Android Developer** with a strong background in **Cybersecurity**. I love building secure, efficient, and user-friendly mobile applications. My journey involves exploring the depths of Android internals while ensuring robust security practices.
+- 🔭 I’m currently working on **Advanced Android Malware Analysis**
+- 🌱 I’m currently learning **Reverse Engineering & Penetration Testing**
+- 👯 I’m looking to collaborate on **Secure Android Architectures**
+- 💬 Ask me about **Kotlin, Jetpack Compose, OWASP Mobile Top 10**
+- ⚡ Fun fact: **I can root a device faster than I can make coffee.**
 ---
-
-## <p align="center">⚡ About Me</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Role-Android%20Developer-00e5ff?style=for-the-badge&logo=android" />
-  <img src="https://img.shields.io/badge/Focus-Mobile%20Apps-8e24aa?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Security-Ethical%20Mind-00bcd4?style=for-the-badge" />
-</p>
-
-<p align="center" style="max-width:700px; font-size:15px; color:#b5c6ff; line-height:1.6;">
-  Hey! I'm <b>LeOOqq (Mehmet Yasin Çaldıran)</b>, a Computer Engineering student & Android developer.<br>
-  Kotlin, Flutter, Firebase, API Design, Clean Architecture ile ilgileniyorum.<br>
-  Amacım temiz, hızlı ve ölçeklenebilir mobil uygulamalar geliştirmek.
-</p>
-
+## 🛠️ Tech Stack
+<div align="center">
+### 📱 Android Development
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
+<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=google-play&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+### 🔐 Cybersecurity & Tools
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash_Scripting-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</div>
 ---
-
-## 🧰 Tech Stack
-
-### 🚀 Languages & Frameworks
-<p>
-  <img src="https://skillicons.dev/icons?i=kotlin,java,flutter,dart,ts,js,python,cs" />
-</p>
-
-### 📱 Mobile
-<p>
-  <img src="https://skillicons.dev/icons?i=androidstudio,firebase" />
-</p>
-
-### 🛠 Backend & Database
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,sqlite,postman" />
-</p>
-
-### ⚙ Tools & Others
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,figma" />
-</p>
-
+## 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+</div>
 ---
-
-## 📡 Connect With Me  
-<p align="center">
-  <a href="https://github.com/LeOOqq"><img src="https://skillicons.dev/icons?i=github" width="40px"></a>
-  <a href="mailto:example@mail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40px"></a>
-  <a href="https://www.instagram.com/"><img src="https://skillicons.dev/icons?i=instagram" width="40px"></a>
-</p>
-
----
-
-# 📊 GitHub Aktivite
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=transparent" height="400"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LeOOqq&theme=transparent" height="400"/>
-  <br><br>
-  <img src="https://komarev.com/ghpvc/?username=LeOOqq&color=blue&style=flat" height="400"/>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=100&section=footer"/>
+</div>
