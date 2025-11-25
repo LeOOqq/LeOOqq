@@ -1,93 +1,126 @@
-<!-- HEADER -->
-<h1 align="center">H</h1>
-
+<!-- ANİMASYONLU SVG BANNER -->
 <p align="center">
-  🎓 <b>İskenderun Teknik Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.</b><br/>
-  🚀 Çocukluğumdan beri klavye başındayım, şimdilerde ise tutkulu bir <b>Mobil Geliştiriciyim</b>.<br/>
-  💡 Fikirleri satır satır koda dökmeyi, Cross-Platform mimariler kurmayı ve kullanıcı deneyimini mükemmelleştirmeyi seviyorum.
+  <img src="https://raw.githubusercontent.com/LeOOqq/LeOOqq/main/animated_banner.svg" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Mod-Odak-0288d1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Mobil-Kodluyor-7b1fa2?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Konum-Hatay%2C%20TR-e53935?style=for-the-badge"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="#">LinkedIn</a> ·
-  <a href="mailto:example@gmail.com">Gmail</a> ·
-  <a href="https://github.com/LeOOqq">GitHub</a>
-</p>
+  <!-- TYPING EFFECT -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&height=100&lines=%3E+sudo+whoami;MEHMET+YASİN+ÇALDIRAN;%3E+loading+skills...;Mobile+%26+Security+Engineer" />
+  </a>
 
----
+  <!-- GLOW GIF SEPARATOR -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# 🛠️ Kullandığım Diller ve Teknolojiler
+  <!-- PROFILE INTRO TEXT -->
+  <br/>
+  <p align="center" style="font-family:'Fira Code', monospace; font-size:15px; color:#8b949e; max-width:600px; line-height:1.8;">
+    Karanlık modda yaşayan, terminalden çıkmayan bir <b>Bilgisayar Mühendisliği</b> öğrencisiyim.<br>
+    2023'te <code>Hello World</code> dedim, şimdi <b>Sistem Güvenliği</b> ve <b>Mobil Mimariler</b> üzerine çalışıyorum.<br>
+    <i>"Kodla, Güvenliğini Sağla, Dağıt."</i>
+  </p>
 
-<table align="center">
-  <thead>
+  <!-- SOCIAL BUTTONS -->
+  <br/>
+  <div>
+    <a href="https://github.com/LeOOqq">
+      <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    </a>
+    <a href="https://linkedin.com/in/mehmet-yasin-çaldıran-26a948332">
+      <img src="https://img.shields.io/badge/LINKEDIN-181717?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="mailto:mcaldiran.mdbf24@iste.edu.tr">
+      <img src="https://img.shields.io/badge/EDU_EMAIL-181717?style=for-the-badge&logo=gmail&logoColor=white"/>
+    </a>
+    <a href="mailto:reallhyperr1274@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-181717?style=for-the-badge&logo=gmail&logoColor=white"/>
+    </a>
+  </div>
+
+</div>
+
+<br/><br/>
+
+<!-- TECH STACK -->
+<h3 align="center" style="color:#c9d1d9; font-family:monospace;">// TECH_STACK</h3>
+<br/>
+
+<div align="center">
+  <table>
     <tr>
-      <th>Alan</th>
-      <th>Teknolojiler</th>
-    </tr>
-  </thead>
-  <tbody>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=kotlin&theme=dark" width="45" />
+        <br/><code style="color:#8b949e; font-size:12px;">Kotlin</code>
+      </td>
 
-    <tr>
-      <td><b>Programlama Dilleri</b></td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=java,c,cpp,cs,python,dart,lua" height="40"/>
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="45" />
+        <br/><code style="color:#8b949e; font-size:12px;">Flutter</code>
+      </td>
+
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="45" />
+        <br/><code style="color:#8b949e; font-size:12px;">Firebase</code>
+      </td>
+
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="45" />
+        <br/><code style="color:#8b949e; font-size:12px;">MySQL</code>
+      </td>
+
+      <td align="center" width="100">
+        <img src="https://skillicons.dev/icons?i=linux&theme=dark" width="45" />
+        <br/><code style="color:#8b949e; font-size:12px;">Linux</code>
       </td>
     </tr>
+  </table>
+</div>
 
+<br/><br/>
+
+<!-- GITHUB STATS -->
+<h3 align="center" style="color:#c9d1d9; font-family:monospace;">// GITHUB_STATS</h3>
+<br/>
+
+<div align="center">
+
+  <!-- CONTRIBUTION GRAPH -->
+  <img src="https://ghchart.rshah.org/FFFFFF/LeOOqq" width="700" />
+  <br/><br/>
+
+  <!-- TROPHY BAR -->
+  <img src="https://github-profile-trophy.vercel.app/?username=LeOOqq&theme=onestar&no-frame=true&column=6" width="100%" />
+  <br/><br/>
+
+  <!-- CUSTOM STREAK BLOCK -->
+  <table style="border-collapse: collapse; width: 80%; max-width: 800px;">
     <tr>
-      <td><b>Mobil Geliştirme</b></td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=flutter,androidstudio,kotlin,java" height="40"/>
+
+      <!-- Total Contributions -->
+      <td align="center" style="padding:20px; border-right:1px solid #30363d; color:#c9d1d9; font-family:monospace;">
+        <div style="font-size:28px; font-weight:bold;">29</div>
+        <div style="color:#848d97; font-size:14px;">Total Contributions</div>
+        <div style="color:#6d737c; font-size:13px;">Oct 28, 2024 - Present</div>
       </td>
-    </tr>
 
-    <tr>
-      <td><b>Web Teknolojileri</b></td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,nodejs,php,vue" height="40"/>
+      <!-- Current Streak -->
+      <td align="center" style="padding:20px; border-right:1px solid #30363d; color:#c9d1d9; font-family:monospace;">
+        <div style="width:60px; height:60px; border-radius:50%; border:3px solid #6e7681; display:flex; justify-content:center; align-items:center; font-size:22px;">
+          1
+        </div>
+        <div style="color:#848d97; font-size:14px;">Current Streak</div>
+        <div style="color:#6d737c; font-size:13px;">Nov 25</div>
       </td>
-    </tr>
 
-    <tr>
-      <td><b>Sistem, Veri & Araçlar</b></td>
-      <td>
-        <img src="https://skillicons.dev/icons?i=linux,mongodb,git,vscode" height="40"/>
+      <!-- Longest Streak -->
+      <td align="center" style="padding:20px; color:#c9d1d9; font-family:monospace;">
+        <div style="font-size:28px; font-weight:bold;">3</div>
+        <div style="color:#848d97; font-size:14px;">Longest Streak</div>
+        <div style="color:#6d737c; font-size:13px;">Nov 22 - Nov 23</div>
       </td>
+
     </tr>
+  </table>
 
-  </tbody>
-</table>
-
----
-
-# 📊 GitHub İstatistikleri
-
-### 🎨 En Çok Kullanılan Diller
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeOOqq&layout=compact&theme=tokyonight&langs_count=8"/>
-</p>
-
-### 🚀 Genel İstatistikler
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=LeOOqq&theme=tokyonight" />
-</p>
-
----
-
-# 👁‍🗨 Profil Aktivitesi
-<p align="center">
-  <b>Toplam Katkı:</b> 29 (28 Şub – Şu an) •  
-  <b>Güncel Seri:</b> 0 (25 Kas) •  
-  <b>En Uzun Seri:</b> 3 (28 Şub – 2 Mar)
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LeOOqq&label=Profil%20Ziyareti&color=blue&style=flat"/>  
-</p>
-
----
+</div>
