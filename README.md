@@ -65,14 +65,7 @@
 
 ---
 
-## 🧬 Quote of the Day  
-<p align="center" style="font-size:16px; color:#9da5ff;">
-  <i>“Code is never finished — only abandoned.”</i>
-</p>
-
----
-
-# 📊 GitHub Aktivite Paneli (En Alta)
+# 📊 GitHub Aktivite
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=LeOOqq&show_icons=true&theme=transparent" height="150"/>
