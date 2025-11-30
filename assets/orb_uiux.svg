@@ -1,0 +1,67 @@
+<svg width="300" height="350" viewBox="0 0 300 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="yellow-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe600" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffaa00" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes expand-contract {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+    @keyframes ribbon-spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes eye-blink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95% { transform: scaleY(0.1); }
+    }
+    .ribbon { transform-origin: 150px 150px; animation: ribbon-spin 15s linear infinite; }
+    .inner-eye { transform-origin: 150px 150px; animation: eye-blink 4s infinite; }
+    .breathing { transform-origin: 150px 150px; animation: expand-contract 4s ease-in-out infinite; }
+    .label-float { animation: float-text 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Glow -->
+  <circle cx="150" cy="150" r="60" fill="url(#yellowGrad)" filter="url(#yellow-glow)" opacity="0.2"/>
+
+  <!-- Core: Holographic Eye/Focus -->
+  <g class="inner-eye">
+    <circle cx="150" cy="150" r="20" fill="#ffe600" filter="url(#yellow-glow)"/>
+    <circle cx="150" cy="150" r="10" fill="#ffffff"/>
+  </g>
+  <circle cx="150" cy="150" r="35" stroke="#ffe600" stroke-width="1" fill="none" stroke-dasharray="2 2" opacity="0.5"/>
+
+  <!-- Golden Ratio / Layout Curves -->
+  <g class="ribbon">
+    <path d="M150 50 C200 50 250 100 250 150" stroke="#ffe600" stroke-width="2" fill="none" filter="url(#yellow-glow)"/>
+    <path d="M250 150 C250 200 200 250 150 250" stroke="#ffe600" stroke-width="2" fill="none" filter="url(#yellow-glow)" opacity="0.5"/>
+    <path d="M150 250 C100 250 50 200 50 150" stroke="#ffe600" stroke-width="2" fill="none" filter="url(#yellow-glow)"/>
+    <path d="M50 150 C50 100 100 50 150 50" stroke="#ffe600" stroke-width="2" fill="none" filter="url(#yellow-glow)" opacity="0.5"/>
+  </g>
+
+  <!-- Floating UI Elements -->
+  <g class="breathing">
+    <rect x="100" y="100" width="10" height="10" stroke="#ffe600" stroke-width="1" fill="none"/>
+    <rect x="190" y="190" width="10" height="10" stroke="#ffe600" stroke-width="1" fill="none"/>
+    <circle cx="195" cy="105" r="3" fill="#ffe600"/>
+    <circle cx="105" cy="195" r="3" fill="#ffe600"/>
+  </g>
+
+  <!-- Holographic Text Label -->
+  <g class="label-float" transform="translate(0, 280)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#ffe600" filter="url(#yellow-glow)" letter-spacing="2">UI/UX DESIGN</text>
+    <line x1="120" y1="10" x2="180" y2="10" stroke="#ffe600" stroke-width="2"/>
+    <circle cx="150" cy="18" r="3" fill="#ffe600"/>
+  </g>
+</svg>

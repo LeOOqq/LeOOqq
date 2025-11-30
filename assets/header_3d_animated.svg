@@ -1,0 +1,77 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff">
+        <animate attributeName="stop-color" values="#00f3ff;#ff00ff;#00f3ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff;#00f3ff;#ff00ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9f2fff" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    <clipPath id="scanline-clip">
+      <rect width="1000" height="200">
+        <animate attributeName="y" from="-200" to="200" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  
+  <style>
+    @keyframes pulse {
+      0% { opacity: 0.8; }
+      50% { opacity: 1; }
+      100% { opacity: 0.8; }
+    }
+    @keyframes glitch {
+      0% { transform: translate(0,0); }
+      20% { transform: translate(-2px, 1px); }
+      40% { transform: translate(2px, -1px); }
+      60% { transform: translate(-1px, 2px); }
+      80% { transform: translate(1px, -2px); }
+      100% { transform: translate(0,0); }
+    }
+    .glitch-text {
+      animation: glitch 2s infinite linear alternate-reverse;
+    }
+    .scanline {
+      fill: url(#neonGrad);
+      opacity: 0.1;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1000" height="200" fill="#050505"/>
+  <rect width="1000" height="200" fill="url(#grid)"/>
+
+  <!-- Animated Scanline -->
+  <rect width="1000" height="10" fill="#00f3ff" opacity="0.2">
+    <animate attributeName="y" from="-10" to="210" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main Text with Glitch -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+        font-family="Arial, sans-serif" font-weight="bold" font-size="60" 
+        fill="url(#neonGrad)" filter="url(#glow)" letter-spacing="4" class="glitch-text">
+    MEHMET YASIN ÇALDIRAN
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" 
+        font-family="Courier New, monospace" font-size="20" 
+        fill="#00ff4c" opacity="0.8" letter-spacing="8">
+    &lt; SYSTEM ONLINE /&gt;
+  </text>
+
+  <!-- Borders -->
+  <path d="M0 2 H1000" stroke="#00f3ff" stroke-width="2" filter="url(#glow)"/>
+  <path d="M0 198 H1000" stroke="#ff00ff" stroke-width="2" filter="url(#glow)"/>
+</svg>

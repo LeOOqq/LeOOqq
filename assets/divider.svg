@@ -1,0 +1,40 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-laser" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" stop-color="#00f3ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="80%" stop-color="#00f3ff"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+  
+  <style>
+    @keyframes beam-pulse {
+      0% { opacity: 0.5; stroke-width: 2; }
+      50% { opacity: 1; stroke-width: 4; }
+      100% { opacity: 0.5; stroke-width: 2; }
+    }
+    .beam {
+      animation: beam-pulse 2s infinite;
+    }
+  </style>
+
+  <!-- Main Beam -->
+  <line x1="0" y1="25" x2="1000" y2="25" stroke="url(#laserGrad)" class="beam" filter="url(#glow-laser)"/>
+  
+  <!-- Particles -->
+  <circle cx="200" cy="25" r="2" fill="#ff00ff">
+    <animate attributeName="cx" from="0" to="1000" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="25" r="2" fill="#ff00ff">
+    <animate attributeName="cx" from="1000" to="0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

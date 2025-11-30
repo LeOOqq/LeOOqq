@@ -1,0 +1,67 @@
+<svg width="300" height="350" viewBox="0 0 300 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="magenta-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="magGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff00ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#9f2fff" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes shield-spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes lock-pulse {
+      0%, 100% { transform: scale(1); stroke-width: 2; }
+      50% { transform: scale(1.05); stroke-width: 3; }
+    }
+    @keyframes particle-vortex {
+      0% { transform: rotate(0deg) scale(1); }
+      50% { transform: rotate(180deg) scale(0.8); }
+      100% { transform: rotate(360deg) scale(1); }
+    }
+    .shield-ring { transform-origin: 150px 150px; animation: shield-spin 8s linear infinite; }
+    .lock-core { transform-origin: 150px 150px; animation: lock-pulse 2s ease-in-out infinite; }
+    .vortex { transform-origin: 150px 150px; animation: particle-vortex 5s linear infinite; }
+    .label-flicker { animation: float-text 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Glow -->
+  <circle cx="150" cy="150" r="60" fill="url(#magGrad)" filter="url(#magenta-glow)" opacity="0.3"/>
+
+  <!-- Core: Particle Vortex -->
+  <g class="vortex">
+    <path d="M150 120 Q180 135 150 150 T150 180" stroke="#ff00ff" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M120 150 Q135 120 150 150 T180 150" stroke="#ff00ff" stroke-width="1" fill="none" opacity="0.7" transform="rotate(90 150 150)"/>
+    <circle cx="150" cy="150" r="5" fill="#ffffff" filter="url(#magenta-glow)"/>
+  </g>
+
+  <!-- Inner Lock Mechanism -->
+  <g class="lock-core">
+    <path d="M130 140 L130 130 A20 20 0 0 1 170 130 L170 140" stroke="#ff00ff" stroke-width="2" fill="none" filter="url(#magenta-glow)"/>
+    <rect x="125" y="140" width="50" height="35" rx="5" stroke="#ff00ff" stroke-width="2" fill="none" filter="url(#magenta-glow)"/>
+    <circle cx="150" cy="157" r="3" fill="#ff00ff"/>
+  </g>
+
+  <!-- Outer Shield Rings -->
+  <g class="shield-ring">
+    <path d="M150 70 L160 80 L230 80 L220 70 Z" fill="#ff00ff" opacity="0.5"/>
+    <path d="M150 230 L140 220 L70 220 L80 230 Z" fill="#ff00ff" opacity="0.5"/>
+    <circle cx="150" cy="150" r="80" stroke="#ff00ff" stroke-width="1" stroke-dasharray="20 10" fill="none" opacity="0.6"/>
+    <circle cx="150" cy="150" r="95" stroke="#9f2fff" stroke-width="2" stroke-dasharray="60 60" fill="none" filter="url(#magenta-glow)"/>
+  </g>
+
+  <!-- Holographic Text Label -->
+  <g class="label-flicker" transform="translate(0, 280)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#ff00ff" filter="url(#magenta-glow)" letter-spacing="2">CYBER SECURITY</text>
+    <rect x="90" y="8" width="120" height="1" fill="#ff00ff" opacity="0.5"/>
+    <rect x="145" y="12" width="10" height="10" fill="none" stroke="#ff00ff" stroke-width="1"/>
+  </g>
+</svg>
