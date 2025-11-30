@@ -1,0 +1,19 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-li" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100" height="100" fill="#050505" rx="20"/>
+  
+  <!-- LinkedIn Icon -->
+  <g filter="url(#glow-li)" fill="#00f3ff">
+    <path d="M20 35 H35 V80 H20 V35 Z M27.5 15 C32 15 35 18 35 22 C35 26 32 29 27.5 29 C23 29 20 26 20 22 C20 18 23 15 27.5 15 Z"/>
+    <path d="M45 35 H60 V42 C62 38 67 34 75 34 C85 34 90 40 90 55 V80 H75 V57 C75 50 73 46 68 46 C63 46 60 50 60 57 V80 H45 V35 Z"/>
+  </g>
+</svg>

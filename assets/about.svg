@@ -1,0 +1,24 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-about" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Frame -->
+  <path d="M20 20 H980 V280 H20 V20 Z" fill="none" stroke="#00f3ff" stroke-width="2" filter="url(#glow-about)"/>
+  <path d="M20 60 H200" stroke="#00f3ff" stroke-width="2"/>
+  <path d="M200 60 L220 20" stroke="#00f3ff" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="40" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#00f3ff" filter="url(#glow-about)">ABOUT ME</text>
+  
+  <!-- Content Placeholder Lines -->
+  <line x1="40" y1="100" x2="960" y2="100" stroke="#9f2fff" stroke-width="1" stroke-dasharray="5 5" opacity="0.5"/>
+  <line x1="40" y1="140" x2="900" y2="140" stroke="#9f2fff" stroke-width="1" stroke-dasharray="5 5" opacity="0.5"/>
+  <line x1="40" y1="180" x2="940" y2="180" stroke="#9f2fff" stroke-width="1" stroke-dasharray="5 5" opacity="0.5"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="300" height="350" viewBox="0 0 300 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="mag-glow-v2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes rotate-shield {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes pulse-lock {
+      0%, 100% { opacity: 0.5; stroke-width: 1; }
+      50% { opacity: 1; stroke-width: 3; }
+    }
+    .shield-outer { transform-origin: 150px 150px; animation: rotate-shield 10s linear infinite; }
+    .shield-inner { transform-origin: 150px 150px; animation: rotate-shield 6s linear infinite reverse; }
+    .lock-core { animation: pulse-lock 2s infinite; }
+  </style>
+
+  <!-- Hexagonal Shield Base -->
+  <path d="M150 50 L236 100 V200 L150 250 L64 200 V100 Z" stroke="#ff00ff" stroke-width="1" fill="none" opacity="0.2"/>
+  
+  <!-- Rotating Outer Barrier -->
+  <g class="shield-outer">
+    <path d="M150 60 L220 100 L220 190 L150 230 L80 190 L80 100 Z" stroke="#ff00ff" stroke-width="2" fill="none" stroke-dasharray="20 10" filter="url(#mag-glow-v2)"/>
+    <circle cx="150" cy="60" r="3" fill="#ff00ff"/>
+    <circle cx="220" cy="190" r="3" fill="#ff00ff"/>
+    <circle cx="80" cy="190" r="3" fill="#ff00ff"/>
+  </g>
+
+  <!-- Rotating Inner Barrier -->
+  <g class="shield-inner">
+    <path d="M150 90 L200 120 L200 180 L150 210 L100 180 L100 120 Z" stroke="#9f2fff" stroke-width="2" fill="none" filter="url(#mag-glow-v2)"/>
+  </g>
+
+  <!-- Central Lock Core -->
+  <g transform="translate(150, 150)" class="lock-core">
+    <path d="M-20 -20 L20 -20 L20 20 L-20 20 Z" fill="#ff00ff" fill-opacity="0.2" stroke="#ff00ff" stroke-width="2" filter="url(#mag-glow-v2)"/>
+    <path d="M-10 -10 L10 10 M10 -10 L-10 10" stroke="#ff00ff" stroke-width="2"/>
+  </g>
+
+  <!-- Data Stream Particles -->
+  <circle cx="150" cy="50" r="2" fill="#ffffff">
+    <animate attributeName="cy" values="50;250" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Label -->
+  <g transform="translate(0, 300)">
+    <text x="150" y="0" text-anchor="middle" font-family="Courier New, monospace" font-weight="bold" font-size="14" fill="#ff00ff" letter-spacing="3" filter="url(#mag-glow-v2)">SEC_PROTOCOL</text>
+    <rect x="100" y="10" width="100" height="1" fill="#ff00ff" opacity="0.5"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ff00ff" opacity="0.8">ENCRYPTION: AES-256</text>
+  </g>
+</svg>
