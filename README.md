@@ -35,7 +35,7 @@
 
 <!-- 3D ABOUT SECTION (HOLOGRAM PANEL) -->
 <div align="center">
-  <img src="assets/about.svg" width="100%" />
+  <img src="assets/about_panel_v2.svg" width="100%" />
 </div>
 
 <div align="center">
