@@ -91,7 +91,6 @@
   <!-- Footer Text -->
   <g transform="translate(400, 370)">
     <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic" font-size="14" fill="#00f3ff" opacity="0.9">
-      "Neon ve cyberpunk tasarımı seviyor, kendi yazılım şirketini kurma hedefi var."
     </text>
   </g>
 
@@ -101,3 +100,4 @@
   <path d="M790 50 L790 10 L750 10" stroke="#00f3ff" stroke-width="2" fill="none"/>
 
 </svg>
+
