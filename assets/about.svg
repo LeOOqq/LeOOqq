@@ -1,4 +1,4 @@
-<svg width="100%" height="100%" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 1000 350" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="glow-about" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
@@ -7,18 +7,66 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <linearGradient id="cyberText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="100%" stop-color="#9f2fff"/>
+    </linearGradient>
   </defs>
-  
-  <!-- Frame -->
-  <path d="M20 20 H980 V280 H20 V20 Z" fill="none" stroke="#00f3ff" stroke-width="2" filter="url(#glow-about)"/>
-  <path d="M20 60 H200" stroke="#00f3ff" stroke-width="2"/>
-  <path d="M200 60 L220 20" stroke="#00f3ff" stroke-width="2"/>
-  
-  <!-- Title -->
-  <text x="40" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#00f3ff" filter="url(#glow-about)">ABOUT ME</text>
-  
-  <!-- Content Placeholder Lines -->
-  <line x1="40" y1="100" x2="960" y2="100" stroke="#9f2fff" stroke-width="1" stroke-dasharray="5 5" opacity="0.5"/>
-  <line x1="40" y1="140" x2="900" y2="140" stroke="#9f2fff" stroke-width="1" stroke-dasharray="5 5" opacity="0.5"/>
-  <line x1="40" y1="180" x2="940" y2="180" stroke="#9f2fff" stroke-width="1" stroke-dasharray="5 5" opacity="0.5"/>
+
+  <!-- FRAME -->
+  <path d="M20 20 H980 V320 H20 V20 Z"
+        fill="none"
+        stroke="#00f3ff"
+        stroke-width="2"
+        filter="url(#glow-about)"/>
+
+  <!-- TAB HEADER -->
+  <path d="M20 60 H220" stroke="#00f3ff" stroke-width="2"/>
+  <path d="M220 60 L245 20" stroke="#00f3ff" stroke-width="2"/>
+  <text x="40" y="50" font-family="Orbitron, Arial" font-size="24" fill="url(#cyberText)" filter="url(#glow-about)">
+    ABOUT ME
+  </text>
+
+  <!-- LEFT COLUMN -->
+  <text x="40" y="100" font-family="Arial" fill="#00f3ff" font-size="18" filter="url(#glow-about)">👤 KİŞİSEL BİLGİLER</text>
+  <text x="40" y="125" font-family="Arial" fill="#fff" font-size="15">Ad: Mehmet Yasin Çaldıran</text>
+
+  <text x="40" y="165" font-family="Arial" fill="#00f3ff" font-size="18" filter="url(#glow-about)">🎓 EĞİTİM</text>
+  <text x="40" y="190" font-family="Arial" fill="#fff" font-size="15">Bilgisayar Mühendisliği - İskenderun Teknik Üniversitesi</text>
+  <text x="40" y="210" font-family="Arial" fill="#fff" font-size="15">Fakülte: Mühendislik ve Doğa Bilimleri</text>
+  <text x="40" y="230" font-family="Arial" fill="#fff" font-size="15">Sınıf: 2. Sınıf</text>
+  <text x="40" y="250" font-family="Arial" fill="#fff" font-size="15">GPA: 3.28</text>
+
+
+  <!-- RIGHT COLUMN -->
+  <text x="500" y="100" font-family="Arial" fill="#00f3ff" font-size="18" filter="url(#glow-about)">💻 TEKNOLOJİLER</text>
+  <text x="500" y="125" font-family="Arial" fill="#fff" font-size="15">
+    Flutter, Dart, C#, JavaScript, C, C++, SQL, Kotlin, HTML/CSS, PHP
+  </text>
+  <text x="500" y="145" font-family="Arial" fill="#fff" font-size="15">
+    Flutter (Riverpod, GoRouter, Firebase)
+  </text>
+  <text x="500" y="165" font-family="Arial" fill="#fff" font-size="15">
+    Visual Studio, Android Studio, VS Code, EF Core, MySQL, Firebase
+  </text>
+  <text x="500" y="185" font-family="Arial" fill="#fff" font-size="15">
+    GitHub: LeOOqq — WinForms, WebView2, ERP Sistemleri
+  </text>
+
+
+  <text x="500" y="225" font-family="Arial" fill="#00f3ff" font-size="18" filter="url(#glow-about)">🧠 İLGİ ALANLARI</text>
+  <text x="500" y="250" font-family="Arial" fill="#fff" font-size="15">
+    ERP Sistemleri, Mobil Uygulamalar, Web Tasarım (3D), Siber Güvenlik
+  </text>
+  <text x="500" y="270" font-family="Arial" fill="#fff" font-size="15">
+    Donanım entegrasyonları (Terazi, Barkod Yazıcı vb.)
+  </text>
+
+
+  <!-- BOTTOM SUMMARY -->
+  <text x="40" y="300" font-family="Arial" font-size="14" fill="url(#cyberText)" filter="url(#glow-about)">
+    Neon ve cyberpunk tasarımı seviyor, kendi yazılım şirketini kurma hedefi var.
+  </text>
+
 </svg>
