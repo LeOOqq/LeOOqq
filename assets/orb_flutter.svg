@@ -1,0 +1,75 @@
+<svg width="300" height="350" viewBox="0 0 300 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="cyan-glow-v2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="cyanGradComplex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#00f3ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0099ff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes hover-stack {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes scan-pass {
+      0% { transform: translateY(-50px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateY(50px); opacity: 0; }
+    }
+    @keyframes glitch-text {
+      0% { transform: translate(0,0); opacity: 1; }
+      92% { transform: translate(0,0); opacity: 1; }
+      94% { transform: translate(-2px,2px); opacity: 0.8; }
+      96% { transform: translate(2px,-2px); opacity: 0.8; }
+      98% { transform: translate(0,0); opacity: 1; }
+      100% { transform: translate(0,0); opacity: 1; }
+    }
+    .layer-1 { animation: hover-stack 4s ease-in-out infinite; animation-delay: 0s; }
+    .layer-2 { animation: hover-stack 4s ease-in-out infinite; animation-delay: 0.5s; }
+    .layer-3 { animation: hover-stack 4s ease-in-out infinite; animation-delay: 1s; }
+    .scanner { animation: scan-pass 3s linear infinite; }
+    .text-glitch { animation: glitch-text 3s infinite; }
+  </style>
+
+  <!-- Isometric Base Grid -->
+  <path d="M150 250 L50 200 L150 150 L250 200 Z" fill="url(#cyanGradComplex)" opacity="0.1"/>
+  <path d="M150 250 L50 200 L50 220 L150 270 L250 220 L250 200 Z" stroke="#00f3ff" stroke-width="1" fill="none" opacity="0.3"/>
+
+  <!-- Floating Layers (App Stack) -->
+  <g transform="translate(150, 180)">
+    <!-- Bottom Layer -->
+    <g class="layer-1">
+      <path d="M0 20 L-60 -10 L0 -40 L60 -10 Z" fill="#00f3ff" fill-opacity="0.1" stroke="#00f3ff" stroke-width="1" filter="url(#cyan-glow-v2)"/>
+      <path d="M-20 -10 L20 -10" stroke="#00f3ff" stroke-width="1" opacity="0.5"/>
+    </g>
+    <!-- Middle Layer -->
+    <g class="layer-2" transform="translate(0, -30)">
+      <path d="M0 20 L-50 -5 L0 -30 L50 -5 Z" fill="#00f3ff" fill-opacity="0.15" stroke="#00f3ff" stroke-width="1" filter="url(#cyan-glow-v2)"/>
+      <rect x="-10" y="-10" width="20" height="10" stroke="#00f3ff" fill="none" transform="skewY(-25) skewX(45)"/>
+    </g>
+    <!-- Top Layer -->
+    <g class="layer-3" transform="translate(0, -60)">
+      <path d="M0 20 L-40 0 L0 -20 L40 0 Z" fill="#00f3ff" fill-opacity="0.2" stroke="#00f3ff" stroke-width="2" filter="url(#cyan-glow-v2)"/>
+      <!-- Flutter-like Logo Shape -->
+      <path d="M-10 0 L0 5 L10 0 L0 -5 Z" fill="#ffffff" filter="url(#cyan-glow-v2)"/>
+    </g>
+  </g>
+
+  <!-- Scanning Laser -->
+  <rect x="90" y="150" width="120" height="2" fill="#00f3ff" class="scanner" filter="url(#cyan-glow-v2)"/>
+
+  <!-- Tech Label -->
+  <g transform="translate(0, 300)" class="text-glitch">
+    <text x="150" y="0" text-anchor="middle" font-family="Courier New, monospace" font-weight="bold" font-size="14" fill="#00f3ff" letter-spacing="4">FLUTTER_DEV</text>
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00f3ff" opacity="0.6">[ WIDGET_TREE_OPTIMIZED ]</text>
+  </g>
+</svg>

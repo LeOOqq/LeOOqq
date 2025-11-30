@@ -1,0 +1,103 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="panel-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050505" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse-opacity {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    .icon-pulse { animation: pulse-opacity 3s infinite; }
+  </style>
+
+  <!-- Main Panel Background -->
+  <rect x="10" y="10" width="780" height="380" rx="10" fill="url(#bgGrad)" stroke="#00f3ff" stroke-width="2" filter="url(#panel-glow)"/>
+  <rect x="10" y="10" width="780" height="380" rx="10" fill="url(#grid-pattern)"/>
+
+  <!-- Header Section -->
+  <path d="M10 10 L250 10 L280 50 L10 50 Z" fill="#00f3ff" fill-opacity="0.1"/>
+  <path d="M10 50 L280 50 L290 10" stroke="#00f3ff" stroke-width="2" fill="none" filter="url(#panel-glow)"/>
+  <text x="40" y="38" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#00f3ff" letter-spacing="2" filter="url(#panel-glow)">ABOUT ME</text>
+
+  <!-- Content Grid -->
+  
+  <!-- 1. KİŞİSEL BİLGİLER (Top Left) -->
+  <g transform="translate(50, 100)">
+    <!-- Icon: User -->
+    <g class="icon-pulse" fill="#9f2fff">
+      <circle cx="15" cy="10" r="8"/>
+      <path d="M0 30 Q15 15 30 30 V35 H0 Z"/>
+    </g>
+    <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#00f3ff">KİŞİSEL BİLGİLER</text>
+    <!-- Placeholder lines for content -->
+    <rect x="0" y="45" width="250" height="2" fill="#9f2fff" opacity="0.3"/>
+    <text x="0" y="70" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Ad: Mehmet Yasin Çaldıran</text>
+    <text x="0" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Rol: Full Stack Developer</text>
+  </g>
+
+  <!-- 2. TEKNOLOJİLER (Top Right) -->
+  <g transform="translate(450, 100)">
+    <!-- Icon: Screen -->
+    <g class="icon-pulse" fill="#00f3ff">
+      <rect x="0" y="0" width="30" height="20" rx="2"/>
+      <rect x="10" y="22" width="10" height="3"/>
+      <rect x="5" y="25" width="20" height="2"/>
+    </g>
+    <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#00f3ff">TEKNOLOJİLER</text>
+    <rect x="0" y="45" width="250" height="2" fill="#00f3ff" opacity="0.3"/>
+    <text x="0" y="70" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">React, Node.js, Python</text>
+    <text x="0" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Flutter, Cyber Security</text>
+  </g>
+
+  <!-- 3. EĞİTİM (Bottom Left) -->
+  <g transform="translate(50, 240)">
+    <!-- Icon: Cap -->
+    <g class="icon-pulse" fill="#ffe600">
+      <path d="M0 10 L15 0 L30 10 L15 20 Z"/>
+      <rect x="25" y="10" width="2" height="15"/>
+    </g>
+    <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#00f3ff">EĞİTİM</text>
+    <rect x="0" y="45" width="250" height="2" fill="#ffe600" opacity="0.3"/>
+    <text x="0" y="70" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">İskenderun Teknik Üni.</text>
+    <text x="0" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Yönetim Bilişim Sistemleri</text>
+  </g>
+
+  <!-- 4. İLGİ ALANLARI (Bottom Right) -->
+  <g transform="translate(450, 240)">
+    <!-- Icon: Heart -->
+    <g class="icon-pulse" fill="#ff00ff">
+      <path d="M15 25 L5 15 A5 5 0 0 1 15 5 A5 5 0 0 1 25 15 Z"/>
+    </g>
+    <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#00f3ff">İLGİ ALANLARI</text>
+    <rect x="0" y="45" width="250" height="2" fill="#ff00ff" opacity="0.3"/>
+    <text x="0" y="70" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Cyberpunk Design, AI</text>
+    <text x="0" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Game Dev, Blockchain</text>
+  </g>
+
+  <!-- Footer Text -->
+  <g transform="translate(400, 370)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic" font-size="14" fill="#00f3ff" opacity="0.9">
+      "Neon ve cyberpunk tasarımı seviyor, kendi yazılım şirketini kurma hedefi var."
+    </text>
+  </g>
+
+  <!-- Decorative Corners -->
+  <path d="M10 350 L10 390 L50 390" stroke="#00f3ff" stroke-width="2" fill="none"/>
+  <path d="M790 350 L790 390 L750 390" stroke="#00f3ff" stroke-width="2" fill="none"/>
+  <path d="M790 50 L790 10 L750 10" stroke="#00f3ff" stroke-width="2" fill="none"/>
+
+</svg>
