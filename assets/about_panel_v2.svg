@@ -73,7 +73,7 @@
     <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#00f3ff">EĞİTİM</text>
     <rect x="0" y="45" width="250" height="2" fill="#ffe600" opacity="0.3"/>
     <text x="0" y="70" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">İskenderun Teknik Üni.</text>
-    <text x="0" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Yönetim Bilişim Sistemleri</text>
+    <text x="0" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffffff" opacity="0.8">Bilgisayar Mühendisliği</text>
   </g>
 
   <!-- 4. İLGİ ALANLARI (Bottom Right) -->
@@ -100,4 +100,5 @@
   <path d="M790 50 L790 10 L750 10" stroke="#00f3ff" stroke-width="2" fill="none"/>
 
 </svg>
+
 
